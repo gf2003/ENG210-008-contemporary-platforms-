@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    background-image: url(landing.jpg);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.header {
+    background-color: #000000;
+    color: white;
+    padding: 1.6rem 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    width: 100vw; 
+    height: auto;
+}
+.content{
+    position: relative;
+    left: 350px;
+    background: linear-gradient(to right, white, #555555);
+    padding: 32px;
+    margin: 32px;
+    line-height: 2.0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-width: 800px;
+
+
+
+}
+blockquote{
+    position: relative;
+    left: 350px;
+    background: linear-gradient(to right, white, #555555);
+    padding: 32px;
+    margin: 32px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: 80%;
+    max-width: 800px;
+    font-size: large;
+
+}
+.graph{
+    position: relative;
+    left: 70px;
+    height: 500px;
+    width: 700px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);  
+    
+
+}
+.next{
+    height: 50px;
+    width: 100%;
+    border: 0px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 80px;
+    margin-bottom: 10px;
+ }
+
+
+.Read{
+    border-radius: 30px;
+    height: 50px;
+    width: 80px;
+
+    
+}
+
+.Read:hover{
+    cursor: pointer;
+    background-color: rgb(48, 48, 48);
+    color: rgb(173, 60, 153);
+}
+.footer{
+    background-color: #000000;
+    color: white;
+    padding: 1.6rem 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    width: 100vw; 
+    height: auto;
+    
+}
